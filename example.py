@@ -92,4 +92,5 @@ if __name__ == '__main__':
     insert_func("127.0.0.1", 8080, 'user', 'password', 'test_db', 
         "SELECT column1, column2 FROM TABLE_X WHERE column1 = 'test'", 
         "INSERT INTO TABLE_Y(column1, column2)")
+    print("end")
 
